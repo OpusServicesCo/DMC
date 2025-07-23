@@ -1,0 +1,165 @@
+/* Styles Mode Sombre Améliorés */
+
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  background-color: rgb(17, 24, 39) !important; /* gray-900 */
+  color: rgb(229, 231, 235) !important; /* gray-200 */
+}
+
+/* Cards en mode sombre */
+.dark .bg-white {
+  background-color: rgb(31, 41, 55) !important; /* gray-800 */
+  color: rgb(229, 231, 235) !important;
+}
+
+.dark .text-gray-900 {
+  color: rgb(229, 231, 235) !important; /* gray-200 */
+}
+
+.dark .text-gray-800 {
+  color: rgb(209, 213, 219) !important; /* gray-300 */
+}
+
+.dark .text-gray-700 {
+  color: rgb(156, 163, 175) !important; /* gray-400 */
+}
+
+.dark .text-gray-600 {
+  color: rgb(107, 114, 128) !important; /* gray-500 */
+}
+
+.dark .text-gray-500 {
+  color: rgb(75, 85, 99) !important; /* gray-600 */
+}
+
+/* Bordures en mode sombre */
+.dark .border-gray-200 {
+  border-color: rgb(55, 65, 81) !important; /* gray-700 */
+}
+
+.dark .border-gray-300 {
+  border-color: rgb(75, 85, 99) !important; /* gray-600 */
+}
+
+/* Backgrounds en mode sombre */
+.dark .bg-gray-50 {
+  background-color: rgb(31, 41, 55) !important; /* gray-800 */
+}
+
+.dark .bg-gray-100 {
+  background-color: rgb(55, 65, 81) !important; /* gray-700 */
+}
+
+/* Inputs et selects */
+.dark input {
+  background-color: rgb(55, 65, 81) !important; /* gray-700 */
+  border-color: rgb(75, 85, 99) !important; /* gray-600 */
+  color: rgb(229, 231, 235) !important; /* gray-200 */
+}
+
+.dark input:focus {
+  border-color: rgb(99, 102, 241) !important; /* indigo-500 */
+  ring-color: rgb(99, 102, 241) !important;
+}
+
+.dark textarea {
+  background-color: rgb(55, 65, 81) !important;
+  border-color: rgb(75, 85, 99) !important;
+  color: rgb(229, 231, 235) !important;
+}
+
+/* Buttons */
+.dark button[data-state="open"],
+.dark [role="combobox"] {
+  background-color: rgb(55, 65, 81) !important;
+  border-color: rgb(75, 85, 99) !important;
+  color: rgb(229, 231, 235) !important;
+}
+
+/* Dropdowns */
+.dark [role="listbox"],
+.dark [data-radix-popper-content-wrapper] {
+  background-color: rgb(31, 41, 55) !important; /* gray-800 */
+  border-color: rgb(75, 85, 99) !important;
+}
+
+.dark [role="option"] {
+  color: rgb(229, 231, 235) !important;
+}
+
+.dark [role="option"]:hover,
+.dark [role="option"][data-highlighted] {
+  background-color: rgb(55, 65, 81) !important; /* gray-700 */
+}
+
+/* Labels et textes */
+.dark label {
+  color: rgb(229, 231, 235) !important;
+}
+
+/* Gradients en mode sombre - remplacer par des couleurs unies */
+.dark .bg-gradient-to-r {
+  background: rgb(55, 65, 81) !important; /* gray-700 */
+}
+
+/* Badges et petits éléments */
+.dark .bg-green-100 {
+  background-color: rgb(55, 65, 81) !important;
+  color: rgb(209, 213, 219) !important;
+}
+
+.dark .bg-blue-50 {
+  background-color: rgb(55, 65, 81) !important;
+}
+
+.dark .bg-purple-50 {
+  background-color: rgb(55, 65, 81) !important;
+}
+
+.dark .bg-orange-50 {
+  background-color: rgb(55, 65, 81) !important;
+}
+
+.dark .bg-red-50 {
+  background-color: rgb(127, 29, 29) !important; /* red-800 */
+}
+
+/* Couleurs de texte pour les titres */
+.dark .text-medical-700,
+.dark .text-blue-700,
+.dark .text-green-700,
+.dark .text-purple-700,
+.dark .text-orange-700,
+.dark .text-red-700 {
+  color: rgb(229, 231, 235) !important;
+}
+
+/* Slider styles */
+.dark [data-radix-slider-track] {
+  background-color: rgb(75, 85, 99) !important;
+}
+
+.dark [data-radix-slider-range] {
+  background-color: rgb(99, 102, 241) !important;
+}
+
+.dark [data-radix-slider-thumb] {
+  background-color: rgb(229, 231, 235) !important;
+  border-color: rgb(99, 102, 241) !important;
+}
+
+/* Switch styles */
+.dark [data-radix-switch-root] {
+  background-color: rgb(75, 85, 99) !important;
+}
+
+.dark [data-radix-switch-root][data-state="checked"] {
+  background-color: rgb(99, 102, 241) !important;
+}
+
+.dark [data-radix-switch-thumb] {
+  background-color: rgb(229, 231, 235) !important;
+}

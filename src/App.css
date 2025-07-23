@@ -1,0 +1,78 @@
+
+#root {
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* DMC Brand Styles */
+.dmc-logo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  background: linear-gradient(90deg, #2C5282, #4299E1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.dmc-gradient-text {
+  background: linear-gradient(90deg, #2C5282, #4299E1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dmc-card {
+  transition: all 0.3s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.dmc-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(44, 82, 130, 0.1), 0 10px 10px -5px rgba(44, 82, 130, 0.04);
+}
+
+.dmc-stats-card {
+  border-top: 4px solid #2C5282;
+}
+
+/* Import des styles mode sombre */
+@import './styles/dark-mode.css';
